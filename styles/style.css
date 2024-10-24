@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif; /* Specifies the font for the entire webpage */
+    font-size: 16px; /* Sets the default font size */
+}
+
+header img {
+    float: left; /* Makes the image float to the left */
+    margin-right: 10px; /* Adds space between the image and text */
+}
+
+main {
+    clear: both; /* Prevents floating elements from affecting the main content */
+}
+
+main h1 {
+    font-size: 2em; /* Sets the font size for the main heading (h1) */
+}
+
+main h2 {
+    font-size: 1.5em; /* Sets the font size for second-level headings (h2) */
+    color: #800000;
+}
+
+main h3 {
+    font-size: 1.2em; /* Sets the font size for third-level headings (h3) */
+}
+
+
+header h2 {
+    font-size: 170%;
+    color: #800000;
+    text-indent: 30px;
+}
+
+header h3{
+    font-size: 130%;
+    font-style: italic;
+    text-indent: 30px;
+}
+
+a:focus, a:hover {
+    font-style: italic;
+}
+
+footer p {
+    text-align: center;
+}
+
+.shadow {
+    text-shadow: 2px 2px 5px #800000;
+}
+
+:root {
+    --global-color-1: #800000;
+}
+
+:root {
+    --global-color-1: #4d0080;
+}
+
+
